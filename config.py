@@ -38,7 +38,7 @@ def parse_args():
                              '(default: questions/default.yaml or first .yaml in questions/)')
 
     # OpenAI API arguments
-    parser.add_argument('--api-key', default='sk-wqEoMUckbUlrTL4tVcz6kOvn1Gw9Uj499VahouSP83cdtv4c',
+    parser.add_argument('--api-key', default='xxx',
                         help='OpenAI API key')
     parser.add_argument('--api-base', default='https://api.openai-proxy.org/v1',
                         help='OpenAI API Base URL')
